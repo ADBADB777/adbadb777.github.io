@@ -214,7 +214,7 @@ $(function() {
   // 9.2. countdown SETUP
     var setting = {
         counter: {
-            lastDate: "31/12/2025 10:00:00", // Your target date
+            lastDate: "31/12/2025 10:00:00",//
             timeZone: "GMT" //
         }
     };
