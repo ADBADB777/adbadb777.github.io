@@ -202,23 +202,6 @@ $(function() {
         return !1;
     });
 	
-    // 9. countdown
-    $(document).on("ready", function() {
-        // 9.1. countdown timer
-        $(".countdown").countdown({
-            until: new Date(Date.parse(setting.counter.lastDate)),
-            layout: $(".countdown").html(),
-            timezone: setting.counter.timeZone
-        });
-    });
-    // 9.2. countdown SETUP
-    var setting = {
-        counter: {
-            lastDate: "31/12/2026 10:00:00", // <-- This is the new date
-            timeZone: GMT
-        }
-    };
-	
     // 10. modals
     // 10.1. sign up modal
     $(".sign-up-modal-launcher, .sign-up-modal-closer").on("click", function() {
