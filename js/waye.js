@@ -214,8 +214,8 @@ $(function() {
     // 9.2. countdown SETUP
     var setting = {
         counter: {
-            lastDate: "28/01/2026 00:00:00", // <-- This is the new date
-            timeZone: null
+            lastDate: "31/12/2026 10:00:00", // <-- This is the new date
+            timeZone: GMT
         }
     };
 	
