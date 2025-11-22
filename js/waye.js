@@ -211,11 +211,11 @@ $(function() {
             timezone: setting.counter.timeZone
         });
     });
-    // 9.2. countdown SETUP
-    var setting = {
-        counter: {
-            lastDate: "31/12/2026 10:00:00", // <-- This is the new date
-            timeZone: 
+  // 9.2. countdown SETUP
+    var setting = {
+        counter: {
+            lastDate: "31/12/2025 10:00:00", // Your target date
+            timeZone: "GMT" //
         }
     };
 	
