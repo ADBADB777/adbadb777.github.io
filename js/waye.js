@@ -215,7 +215,7 @@ $(function() {
     var setting = {
         counter: {
             lastDate: "31/12/2025 10:00:00", // <-- This is the new date
-            timeZone: "GMT"
+            timeZone: "+0000"
         }
     };
 	
